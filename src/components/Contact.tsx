@@ -1,32 +1,9 @@
 
-import React, { useState } from 'react';
-import { Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
+import React from 'react';
+import { Phone, Mail, MapPin, Clock, ExternalLink } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    horseName: '',
-    message: ''
-  });
-
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log('Form submitted:', formData);
-    // Handle form submission here
-  };
-
   return (
     <section id="contact" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -99,102 +76,43 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Contact Form */}
+          {/* Contact Form Button */}
           <div>
             <h3 className="text-2xl font-serif font-bold text-navy mb-8">
               Request a Consultation
             </h3>
             
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-4">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-navy mb-2">
-                    Your Name *
-                  </label>
-                  <Input
-                    id="name"
-                    name="name"
-                    type="text"
-                    required
-                    value={formData.name}
-                    onChange={handleInputChange}
-                    className="border-blue focus:ring-blue"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-navy mb-2">
-                    Phone Number
-                  </label>
-                  <Input
-                    id="phone"
-                    name="phone"
-                    type="tel"
-                    value={formData.phone}
-                    onChange={handleInputChange}
-                    className="border-blue focus:ring-blue"
-                  />
-                </div>
+            <div className="bg-blue-light rounded-lg p-8 text-center">
+              <div className="mb-6">
+                <h4 className="text-xl font-semibold text-navy mb-3">
+                  Ready to Schedule?
+                </h4>
+                <p className="text-earth">
+                  Click below to fill out our consultation request form. I'll get back to you within 24 hours 
+                  to discuss your horse's needs and schedule an appointment.
+                </p>
               </div>
-
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-navy mb-2">
-                  Email Address *
-                </label>
-                <Input
-                  id="email"
-                  name="email"
-                  type="email"
-                  required
-                  value={formData.email}
-                  onChange={handleInputChange}
-                  className="border-blue focus:ring-blue"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="horseName" className="block text-sm font-medium text-navy mb-2">
-                  Horse's Name & Breed
-                </label>
-                <Input
-                  id="horseName"
-                  name="horseName"
-                  type="text"
-                  value={formData.horseName}
-                  onChange={handleInputChange}
-                  className="border-blue focus:ring-blue"
-                  placeholder="e.g., Thunder - Quarter Horse"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-navy mb-2">
-                  Tell me about your horse's needs *
-                </label>
-                <Textarea
-                  id="message"
-                  name="message"
-                  required
-                  rows={5}
-                  value={formData.message}
-                  onChange={handleInputChange}
-                  className="border-blue focus:ring-blue"
-                  placeholder="Please describe any specific concerns, symptoms, or goals you have for your horse..."
-                />
-              </div>
-
+              
               <Button
-                type="submit"
+                asChild
                 size="lg"
-                className="w-full bg-blue hover:bg-blue-dark text-white"
+                className="bg-blue hover:bg-blue-dark text-white px-8 py-3"
               >
-                <Send size={20} className="mr-2" />
-                Send Message
+                <a 
+                  href="https://forms.google.com/your-form-link" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center"
+                >
+                  <ExternalLink size={20} className="mr-2" />
+                  Request Consultation
+                </a>
               </Button>
-            </form>
-
-            <p className="text-sm text-earth mt-4">
-              * Required fields. I typically respond within 24 hours.
-            </p>
+              
+              <p className="text-sm text-earth mt-4">
+                Prefer to call? Reach me directly at (520) 555-0123
+              </p>
+            </div>
           </div>
         </div>
       </div>
