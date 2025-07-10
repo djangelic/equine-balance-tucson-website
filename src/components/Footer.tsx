@@ -24,7 +24,7 @@ const Footer = () => {
               Dedicated to restoring movement and balance for horses throughout Tucson, Arizona 
               through gentle, professional osteopathic care.
             </p>
-            <div className="flex items-center text-sage">
+            <div className="flex items-center text-blue-light">
               <Heart size={16} className="mr-2" />
               <span className="text-sm">Caring for horses with compassion and expertise</span>
             </div>
@@ -34,12 +34,12 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="#home" className="text-cream hover:text-sage transition-colors">Home</a></li>
-              <li><a href="#about" className="text-cream hover:text-sage transition-colors">About Vanessa</a></li>
-              <li><a href="#services" className="text-cream hover:text-sage transition-colors">Services</a></li>
-              <li><a href="#testimonials" className="text-cream hover:text-sage transition-colors">Testimonials</a></li>
-              <li><a href="#blog" className="text-cream hover:text-sage transition-colors">Horse Care Tips</a></li>
-              <li><a href="#contact" className="text-cream hover:text-sage transition-colors">Contact</a></li>
+              <li><a href="#home" className="text-cream hover:text-blue-light transition-colors">Home</a></li>
+              <li><a href="#about" className="text-cream hover:text-blue-light transition-colors">About Vanessa</a></li>
+              <li><a href="#services" className="text-cream hover:text-blue-light transition-colors">Services</a></li>
+              <li><a href="#testimonials" className="text-cream hover:text-blue-light transition-colors">Testimonials</a></li>
+              <li><a href="#blog" className="text-cream hover:text-blue-light transition-colors">Horse Care Tips</a></li>
+              <li><a href="#contact" className="text-cream hover:text-blue-light transition-colors">Contact</a></li>
             </ul>
           </div>
 
@@ -48,20 +48,20 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Contact Information</h3>
             <div className="space-y-3">
               <div className="flex items-center">
-                <Phone size={16} className="mr-3 text-sage" />
+                <Phone size={16} className="mr-3 text-blue-light" />
                 <span className="text-cream">(520) 555-0123</span>
               </div>
               <div className="flex items-center">
-                <Mail size={16} className="mr-3 text-sage" />
+                <Mail size={16} className="mr-3 text-blue-light" />
                 <span className="text-cream">vanessa@helveyequine.com</span>
               </div>
               <div className="flex items-center">
-                <MapPin size={16} className="mr-3 text-sage" />
+                <MapPin size={16} className="mr-3 text-blue-light" />
                 <span className="text-cream">Tucson, AZ & Surrounding Areas</span>
               </div>
             </div>
             
-            <div className="mt-6 pt-4 border-t border-sage">
+            <div className="mt-6 pt-4 border-t border-blue">
               <p className="text-sm text-cream">
                 <strong>Service Hours:</strong> By appointment, 7 days a week
               </p>
@@ -72,7 +72,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-sage mt-8 pt-8 text-center">
+        <div className="border-t border-blue mt-8 pt-8 text-center">
           <p className="text-cream text-sm">
             © 2025 Helvey Equine Services. All rights reserved. 
             <span className="mx-2">•</span>

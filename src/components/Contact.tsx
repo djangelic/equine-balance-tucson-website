@@ -34,7 +34,7 @@ const Contact = () => {
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-navy mb-4">
             Get in Touch
           </h2>
-          <div className="w-24 h-1 bg-sage mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-blue mx-auto mb-8"></div>
           <p className="text-lg text-earth max-w-3xl mx-auto">
             Ready to help your horse feel their best? I'd love to discuss how equine osteopathy 
             can benefit your horse's health and performance.
@@ -50,8 +50,8 @@ const Contact = () => {
             
             <div className="space-y-6 mb-8">
               <div className="flex items-center">
-                <div className="bg-sage-light rounded-full p-3 mr-4">
-                  <Phone className="text-sage" size={20} />
+                <div className="bg-blue-light rounded-full p-3 mr-4">
+                  <Phone className="text-blue" size={20} />
                 </div>
                 <div>
                   <h4 className="font-semibold text-navy">Phone</h4>
@@ -60,8 +60,8 @@ const Contact = () => {
               </div>
               
               <div className="flex items-center">
-                <div className="bg-sage-light rounded-full p-3 mr-4">
-                  <Mail className="text-sage" size={20} />
+                <div className="bg-blue-light rounded-full p-3 mr-4">
+                  <Mail className="text-blue" size={20} />
                 </div>
                 <div>
                   <h4 className="font-semibold text-navy">Email</h4>
@@ -70,8 +70,8 @@ const Contact = () => {
               </div>
               
               <div className="flex items-center">
-                <div className="bg-sage-light rounded-full p-3 mr-4">
-                  <MapPin className="text-sage" size={20} />
+                <div className="bg-blue-light rounded-full p-3 mr-4">
+                  <MapPin className="text-blue" size={20} />
                 </div>
                 <div>
                   <h4 className="font-semibold text-navy">Service Area</h4>
@@ -80,8 +80,8 @@ const Contact = () => {
               </div>
               
               <div className="flex items-center">
-                <div className="bg-sage-light rounded-full p-3 mr-4">
-                  <Clock className="text-sage" size={20} />
+                <div className="bg-blue-light rounded-full p-3 mr-4">
+                  <Clock className="text-blue" size={20} />
                 </div>
                 <div>
                   <h4 className="font-semibold text-navy">Hours</h4>
@@ -90,7 +90,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="bg-sage-light rounded-lg p-6">
+            <div className="bg-blue-light rounded-lg p-6">
               <h4 className="font-semibold text-navy mb-3">Emergency Services</h4>
               <p className="text-earth text-sm">
                 For urgent equine osteopathy needs, please call directly. I understand that horses 
@@ -118,7 +118,7 @@ const Contact = () => {
                     required
                     value={formData.name}
                     onChange={handleInputChange}
-                    className="border-sage focus:ring-sage"
+                    className="border-blue focus:ring-blue"
                   />
                 </div>
                 <div>
@@ -131,7 +131,7 @@ const Contact = () => {
                     type="tel"
                     value={formData.phone}
                     onChange={handleInputChange}
-                    className="border-sage focus:ring-sage"
+                    className="border-blue focus:ring-blue"
                   />
                 </div>
               </div>
@@ -147,7 +147,7 @@ const Contact = () => {
                   required
                   value={formData.email}
                   onChange={handleInputChange}
-                  className="border-sage focus:ring-sage"
+                  className="border-blue focus:ring-blue"
                 />
               </div>
 
@@ -161,7 +161,7 @@ const Contact = () => {
                   type="text"
                   value={formData.horseName}
                   onChange={handleInputChange}
-                  className="border-sage focus:ring-sage"
+                  className="border-blue focus:ring-blue"
                   placeholder="e.g., Thunder - Quarter Horse"
                 />
               </div>
@@ -177,7 +177,7 @@ const Contact = () => {
                   rows={5}
                   value={formData.message}
                   onChange={handleInputChange}
-                  className="border-sage focus:ring-sage"
+                  className="border-blue focus:ring-blue"
                   placeholder="Please describe any specific concerns, symptoms, or goals you have for your horse..."
                 />
               </div>
@@ -185,7 +185,7 @@ const Contact = () => {
               <Button
                 type="submit"
                 size="lg"
-                className="w-full bg-sage hover:bg-sage-dark text-white"
+                className="w-full bg-blue hover:bg-blue-dark text-white"
               >
                 <Send size={20} className="mr-2" />
                 Send Message

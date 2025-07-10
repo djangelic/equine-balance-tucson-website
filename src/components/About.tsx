@@ -10,14 +10,14 @@ const About = () => {
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-navy mb-4">
             About Vanessa Helvey
           </h2>
-          <div className="w-24 h-1 bg-sage mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-blue mx-auto mb-8"></div>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Image */}
           <div>
             <img
-              src="https://images.unsplash.com/photo-1493962853295-0fd70327578a?auto=format&fit=crop&w=600&q=80"
+              src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=600&q=80"
               alt="Vanessa working with a horse"
               className="rounded-lg shadow-lg w-full h-96 object-cover"
             />
@@ -42,22 +42,22 @@ const About = () => {
             {/* Values */}
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center">
-                <div className="bg-sage-light rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <Heart className="text-sage" size={24} />
+                <div className="bg-blue-light rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                  <Heart className="text-blue" size={24} />
                 </div>
                 <h4 className="font-semibold text-navy mb-2">Compassionate Care</h4>
                 <p className="text-sm text-earth">Every horse receives gentle, individualized attention</p>
               </div>
               <div className="text-center">
-                <div className="bg-sage-light rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <Users className="text-sage" size={24} />
+                <div className="bg-blue-light rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                  <Users className="text-blue" size={24} />
                 </div>
                 <h4 className="font-semibold text-navy mb-2">Trust Building</h4>
                 <p className="text-sm text-earth">Fostering confidence between horse and rider</p>
               </div>
               <div className="text-center">
-                <div className="bg-sage-light rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <Award className="text-sage" size={24} />
+                <div className="bg-blue-light rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                  <Award className="text-blue" size={24} />
                 </div>
                 <h4 className="font-semibold text-navy mb-2">Expert Training</h4>
                 <p className="text-sm text-earth">Certified in advanced equine osteopathy techniques</p>

@@ -27,7 +27,7 @@ const Header = () => {
             />
             <div>
               <h1 className="text-2xl font-serif font-bold text-navy">Helvey Equine</h1>
-              <p className="text-sm text-sage">Equine Osteopathy Services</p>
+              <p className="text-sm text-blue">Equine Osteopathy Services</p>
             </div>
           </div>
 
@@ -37,7 +37,7 @@ const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-navy hover:text-sage transition-colors duration-200 font-medium"
+                className="text-navy hover:text-blue transition-colors duration-200 font-medium"
               >
                 {item.name}
               </a>
@@ -46,7 +46,7 @@ const Header = () => {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden p-2 text-navy hover:text-sage"
+            className="md:hidden p-2 text-navy hover:text-blue"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -61,7 +61,7 @@ const Header = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-navy hover:text-sage transition-colors duration-200 font-medium py-2"
+                  className="text-navy hover:text-blue transition-colors duration-200 font-medium py-2"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}

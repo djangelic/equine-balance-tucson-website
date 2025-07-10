@@ -63,15 +63,20 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom equine theme colors
-				navy: 'hsl(210, 54%, 20%)',
-				sage: {
-					DEFAULT: 'hsl(95, 18%, 45%)',
-					light: 'hsl(95, 18%, 85%)',
-					dark: 'hsl(95, 18%, 35%)'
+				// Custom equine theme colors with blue focus
+				navy: '210 54% 20%',
+				blue: {
+					DEFAULT: '210 80% 45%',
+					light: '210 80% 85%',
+					dark: '210 80% 35%'
 				},
-				earth: 'hsl(25, 25%, 35%)',
-				cream: 'hsl(45, 20%, 95%)'
+				sage: {
+					DEFAULT: '95 18% 45%',
+					light: '95 18% 85%', 
+					dark: '95 18% 35%'
+				},
+				earth: '25 25% 35%',
+				cream: '45 20% 95%'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

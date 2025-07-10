@@ -34,7 +34,7 @@ const Testimonials = () => {
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-navy mb-4">
             What Horse Owners Say
           </h2>
-          <div className="w-24 h-1 bg-sage mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-blue mx-auto mb-8"></div>
           <p className="text-lg text-earth max-w-3xl mx-auto">
             Don't just take our word for it. Here's what horse owners throughout the Tucson area 
             have to say about their experience with Helvey Equine Services.
@@ -43,9 +43,9 @@ const Testimonials = () => {
 
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="bg-sage-light rounded-lg p-8 relative">
+            <div key={index} className="bg-blue-light rounded-lg p-8 relative">
               <div className="absolute top-4 right-4">
-                <Quote className="text-sage opacity-50" size={24} />
+                <Quote className="text-blue opacity-50" size={24} />
               </div>
               
               {/* Star Rating */}
@@ -59,10 +59,10 @@ const Testimonials = () => {
                 "{testimonial.text}"
               </p>
 
-              <div className="border-t border-sage pt-4">
+              <div className="border-t border-blue pt-4">
                 <h4 className="font-semibold text-navy">{testimonial.name}</h4>
                 <p className="text-sm text-earth">{testimonial.location}</p>
-                <p className="text-sm text-sage font-medium">{testimonial.horse}</p>
+                <p className="text-sm text-blue font-medium">{testimonial.horse}</p>
               </div>
             </div>
           ))}
