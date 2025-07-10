@@ -9,21 +9,21 @@ const Blog = () => {
       excerpt: "Learn to recognize the subtle signs that indicate your horse is responding positively to osteopathic care.",
       date: "March 15, 2025",
       readTime: "5 min read",
-      image: "https://images.unsplash.com/photo-1534199617892-81b8f3b0e2e4?auto=format&fit=crop&w=400&q=80"
+      image: "https://images.unsplash.com/photo-1485833077593-4278bba3f11f?auto=format&fit=crop&w=400&q=80"
     },
     {
       title: "Simple Stretches to Support Your Horse's Mobility",
       excerpt: "Easy-to-follow stretching exercises you can do with your horse between professional sessions.",
       date: "March 8, 2025", 
       readTime: "7 min read",
-      image: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=400&q=80"
+      image: "https://images.unsplash.com/photo-1452378174528-3090a4bba7b2?auto=format&fit=crop&w=400&q=80"
     },
     {
       title: "The Benefits of Regular Equine Osteopathy",
       excerpt: "Why consistent bodywork can be a game-changer for your horse's performance and comfort.",
       date: "March 1, 2025",
       readTime: "6 min read", 
-      image: "https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?auto=format&fit=crop&w=400&q=80"
+      image: "https://images.unsplash.com/photo-1493962853295-0fd70327578a?auto=format&fit=crop&w=400&q=80"
     }
   ];
 

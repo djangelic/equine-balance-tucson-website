@@ -42,8 +42,8 @@ const Hero = () => {
           <div className="order-1 lg:order-2">
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1553284966-19b8815c7817?auto=format&fit=crop&w=800&q=80"
-                alt="Beautiful horse in natural setting"
+                src="https://images.unsplash.com/photo-1452378174528-3090a4bba7b2?auto=format&fit=crop&w=800&q=80"
+                alt="Beautiful horses in natural setting"
                 className="rounded-lg shadow-2xl w-full h-96 lg:h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-blue opacity-10 rounded-lg"></div>

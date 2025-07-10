@@ -17,8 +17,8 @@ const About = () => {
           {/* Image */}
           <div>
             <img
-              src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=600&q=80"
-              alt="Vanessa working with a horse"
+              src="https://images.unsplash.com/photo-1493962853295-0fd70327578a?auto=format&fit=crop&w=600&q=80"
+              alt="Horse therapy session"
               className="rounded-lg shadow-lg w-full h-96 object-cover"
             />
           </div>
