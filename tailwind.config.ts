@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,12 +62,25 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom equine theme colors
+				navy: 'hsl(210, 54%, 20%)',
+				sage: {
+					DEFAULT: 'hsl(95, 18%, 45%)',
+					light: 'hsl(95, 18%, 85%)',
+					dark: 'hsl(95, 18%, 35%)'
+				},
+				earth: 'hsl(25, 25%, 35%)',
+				cream: 'hsl(45, 20%, 95%)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			fontFamily: {
+				serif: ['Playfair Display', 'serif'],
+				sans: ['Open Sans', 'sans-serif']
 			},
 			keyframes: {
 				'accordion-down': {
