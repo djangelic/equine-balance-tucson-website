@@ -17,8 +17,8 @@ const About = () => {
           {/* Image */}
           <div>
             <img
-              src="https://images.unsplash.com/photo-1493962853295-0fd70327578a?auto=format&fit=crop&w=600&q=80"
-              alt="Horse therapy session"
+              src="/lovable-uploads/91849e5e-4dbe-48af-a11f-b4a6e0894ce9.png"
+              alt="Vanessa Helvey with horse and dog"
               className="rounded-lg shadow-lg w-full h-96 object-cover"
             />
           </div>
