@@ -21,11 +21,17 @@ const Hero = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
+                asChild
                 size="lg" 
                 className="bg-blue hover:bg-blue-dark text-white px-8 py-3 text-lg"
-                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               >
-                Get a Quote
+                <a 
+                  href="https://form.jotform.com/251914824550053" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  Get a Quote
+                </a>
               </Button>
               <Button 
                 variant="outline" 
@@ -42,7 +48,7 @@ const Hero = () => {
           <div className="order-1 lg:order-2">
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1452378174528-3090a4bba7b2?auto=format&fit=crop&w=800&q=80"
+                src="https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?auto=format&fit=crop&w=800&q=80"
                 alt="Beautiful horses in natural setting"
                 className="rounded-lg shadow-2xl w-full h-96 lg:h-[500px] object-cover"
               />

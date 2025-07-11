@@ -74,12 +74,14 @@ const Services = () => {
           <p className="text-earth mb-6">
             Ready to help your horse feel their best?
           </p>
-          <button 
-            className="bg-blue hover:bg-blue-dark text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200"
-            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+          <a 
+            href="https://form.jotform.com/251914824550053" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-block bg-blue hover:bg-blue-dark text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200"
           >
-            Schedule a Consultation
-          </button>
+            Get a Quote
+          </a>
         </div>
       </div>
     </section>
