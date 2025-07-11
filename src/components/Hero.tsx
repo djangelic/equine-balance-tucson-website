@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { Button } from '@/components/ui/button';
 
 const Hero = () => {
   return (
@@ -20,27 +19,22 @@ const Hero = () => {
               comfort, and performance through intuitive, hands-on care.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
-                asChild
-                size="lg" 
-                className="bg-blue hover:bg-blue-dark text-white px-8 py-3 text-lg"
+              <a 
+                href="https://form.jotform.com/251914824550053" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-block bg-gradient-to-r from-blue to-blue-dark hover:from-blue-dark hover:to-blue text-white px-8 py-3 rounded-lg font-medium text-lg transition-all duration-200 text-center"
               >
-                <a 
-                  href="https://form.jotform.com/251914824550053" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                >
-                  Get a Quote
-                </a>
-              </Button>
-              <Button 
-                variant="outline" 
-                size="lg" 
-                className="border-blue text-blue hover:bg-blue hover:text-white px-8 py-3 text-lg"
-                onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+                Get a Quote
+              </a>
+              <a 
+                href="https://form.jotform.com/251914824550053" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-block bg-gradient-to-r from-blue-light to-blue hover:from-blue hover:to-blue-dark text-navy hover:text-white border border-blue px-8 py-3 rounded-lg font-medium text-lg transition-all duration-200 text-center"
               >
-                Learn More
-              </Button>
+                Get a Quote
+              </a>
             </div>
           </div>
 

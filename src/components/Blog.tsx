@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Calendar, ArrowRight, Book } from 'lucide-react';
+import { Calendar, ArrowRight } from 'lucide-react';
 
 const Blog = () => {
   const blogPosts = [
@@ -40,7 +40,7 @@ const Blog = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 mb-12">
+        <div className="grid md:grid-cols-3 gap-8">
           {blogPosts.map((post, index) => (
             <article key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <img
@@ -61,36 +61,13 @@ const Blog = () => {
                 <p className="text-earth mb-4 leading-relaxed">
                   {post.excerpt}
                 </p>
-                <button className="flex items-center text-blue hover:text-blue-dark font-medium transition-colors duration-200">
+                <button className="flex items-center bg-gradient-to-r from-blue to-blue-dark hover:from-blue-dark hover:to-blue text-white px-4 py-2 rounded-lg font-medium transition-all duration-200">
                   Read More
                   <ArrowRight size={16} className="ml-2" />
                 </button>
               </div>
             </article>
           ))}
-        </div>
-
-        <div className="text-center">
-          <div className="bg-white rounded-lg p-8 max-w-2xl mx-auto">
-            <Book className="text-blue mx-auto mb-4" size={48} />
-            <h3 className="text-2xl font-serif font-bold text-navy mb-4">
-              Stay Informed
-            </h3>
-            <p className="text-earth mb-6">
-              Subscribe to receive the latest horse care tips, treatment insights, and wellness advice 
-              delivered straight to your inbox.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-2 border border-blue rounded-lg focus:outline-none focus:ring-2 focus:ring-blue"
-              />
-              <button className="bg-blue hover:bg-blue-dark text-white px-6 py-2 rounded-lg font-medium transition-colors duration-200">
-                Subscribe
-              </button>
-            </div>
-          </div>
         </div>
       </div>
     </section>

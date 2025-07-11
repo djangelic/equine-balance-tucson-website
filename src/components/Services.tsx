@@ -78,7 +78,7 @@ const Services = () => {
             href="https://form.jotform.com/251914824550053" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="inline-block bg-blue hover:bg-blue-dark text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200"
+            className="inline-block bg-gradient-to-r from-blue to-blue-dark hover:from-blue-dark hover:to-blue text-white px-8 py-3 rounded-lg font-medium transition-all duration-200"
           >
             Get a Quote
           </a>
