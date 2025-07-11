@@ -21,13 +21,13 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src="/lovable-uploads/9004b75e-babb-4ef4-8c26-230834da3273.png" 
+              src="/lovable-uploads/9d8a8ef1-57ee-43ef-b597-3972a1f686aa.png" 
               alt="Helvey Equine Services Logo" 
               className="h-12 w-12"
             />
             <div>
-              <h1 className="text-2xl font-serif font-bold text-navy">Helvey Equine</h1>
-              <p className="text-sm text-blue">Equine Osteopathy Services</p>
+              <h1 className="text-2xl font-serif font-bold text-navy">Helvey Equine Services</h1>
+              <p className="text-sm text-blue">Equine Osteopathy</p>
             </div>
           </div>
 

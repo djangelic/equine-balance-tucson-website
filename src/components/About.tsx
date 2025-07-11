@@ -13,7 +13,7 @@ const About = () => {
           <div className="w-24 h-1 bg-blue mx-auto mb-8"></div>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Image */}
           <div>
             <img
@@ -26,17 +26,40 @@ const About = () => {
           {/* Content */}
           <div>
             <h3 className="text-2xl font-serif font-bold text-navy mb-6">
-              Passionate About Equine Wellness
+              Equine Osteopath, MMCP & Instructor, BSc
             </h3>
+            
             <p className="text-lg text-earth mb-6 leading-relaxed">
-              With years of dedicated training in equine osteopathy and a lifelong passion for horses, 
-              I've built my practice on the foundation of trust, intuition, and gentle care. Based in 
-              beautiful Tucson, Arizona, I work with horses and their owners to restore natural movement 
-              and enhance overall well-being.
+              Vanessa graduated top of her class from the Vluggen Institute for Equine Osteopathy 
+              and Education in 2017. She then spent an additional 4 years working in a clinical 
+              setting with Senior Osteopaths and Veterinarians in Texas and the East Coast, with 
+              an emphasis on advanced osteopathic techniques, specifically related to jaw and poll issues.
             </p>
+
+            <p className="text-lg text-earth mb-6 leading-relaxed">
+              She also has over a decade of teaching experience for the Masterson Method and has 
+              been a certified practitioner since 2012. The Masterson Method is a gentle, integrative 
+              modality that allows the horse to be a collaborative partner in their own healing.
+            </p>
+
+            <div className="mb-8">
+              <h4 className="text-xl font-semibold text-navy mb-4">Extensive Education & Training In:</h4>
+              <ul className="space-y-2 text-earth">
+                <li>• Principles and philosophy of Equine Osteopathy</li>
+                <li>• Equine biomechanics, anatomy and physiology</li>
+                <li>• Neuro-anatomy and neuro-physiology (nerve release)</li>
+                <li>• Structural manipulations (traditional "adjustments")</li>
+                <li>• Strain/Counterstrain</li>
+                <li>• Soft tissue and fascial techniques</li>
+                <li>• Craniosacral and craniomandibular techniques</li>
+                <li>• Visceral mobility and motility</li>
+                <li>• Getting to the root cause of your horse's issues and identifying primary issues that create secondary compensation patterns</li>
+              </ul>
+            </div>
+
             <p className="text-lg text-earth mb-8 leading-relaxed">
-              My philosophy centers on listening to each horse as an individual, using hands-on techniques 
-              that honor their natural healing abilities while building trust between horse and rider.
+              Vanessa is also trained in canine osteopathy, bringing a comprehensive approach 
+              to animal wellness and healing.
             </p>
 
             {/* Values */}
@@ -52,15 +75,15 @@ const About = () => {
                 <div className="bg-blue-light rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <Users className="text-blue" size={24} />
                 </div>
-                <h4 className="font-semibold text-navy mb-2">Trust Building</h4>
-                <p className="text-sm text-earth">Fostering confidence between horse and rider</p>
+                <h4 className="font-semibold text-navy mb-2">Collaborative Healing</h4>
+                <p className="text-sm text-earth">Allowing horses to be partners in their own healing process</p>
               </div>
               <div className="text-center">
                 <div className="bg-blue-light rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <Award className="text-blue" size={24} />
                 </div>
-                <h4 className="font-semibold text-navy mb-2">Expert Training</h4>
-                <p className="text-sm text-earth">Certified in advanced equine osteopathy techniques</p>
+                <h4 className="font-semibold text-navy mb-2">Advanced Training</h4>
+                <p className="text-sm text-earth">Top graduate with extensive clinical experience</p>
               </div>
             </div>
           </div>

@@ -11,13 +11,13 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <img 
-                src="/lovable-uploads/9004b75e-babb-4ef4-8c26-230834da3273.png" 
+                src="/lovable-uploads/9d8a8ef1-57ee-43ef-b597-3972a1f686aa.png" 
                 alt="Helvey Equine Services Logo" 
                 className="h-12 w-12 bg-white rounded-full p-2"
               />
               <div>
-                <h3 className="text-xl font-serif font-bold">Helvey Equine</h3>
-                <p className="text-sm text-cream">Equine Osteopathy Services</p>
+                <h3 className="text-xl font-serif font-bold">Helvey Equine Services</h3>
+                <p className="text-sm text-cream">Equine Osteopathy</p>
               </div>
             </div>
             <p className="text-cream mb-4">
