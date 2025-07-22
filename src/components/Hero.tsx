@@ -17,9 +17,6 @@ const Hero = () => {
             <p className="text-lg text-earth mb-8 leading-relaxed">
               Whole horse bodywork techniques tailored to your horse's individual needs that range from fascial and soft tissue to structural adjustments with an emphasis on getting to the root cause of discomfort and tension through an osteopathic lens.
             </p>
-            <p className="text-sm text-earth mb-8 italic">
-              *Bodywork supports your animal's well-being, but it is never a replacement for veterinary diagnosis or treatment.
-            </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
                 href="https://form.jotform.com/251914824550053" 

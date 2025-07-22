@@ -16,12 +16,12 @@ const Footer = () => {
                 className="h-12 w-12 bg-white rounded-full p-2"
               />
               <div>
-                <h3 className="text-xl font-serif font-bold">Helvey Equine Services</h3>
-                <p className="text-sm text-cream">Equine Osteopathy</p>
+                <h3 className="text-xl font-serif font-bold">Be Well Equine</h3>
+                <p className="text-sm text-cream">Equine Osteopathy, Craniosacral and Masterson Method</p>
               </div>
             </div>
             <p className="text-cream mb-4">
-              Dedicated to restoring movement and balance for horses throughout Tucson, Arizona 
+              Dedicated to enhancing vitality and promoting healing for horses throughout Arizona 
               through gentle, professional osteopathic care.
             </p>
             <div className="flex items-center text-blue-light">
@@ -37,27 +37,17 @@ const Footer = () => {
               <li><a href="#home" className="text-cream hover:text-blue-light transition-colors">Home</a></li>
               <li><a href="#about" className="text-cream hover:text-blue-light transition-colors">About Vanessa</a></li>
               <li><a href="#services" className="text-cream hover:text-blue-light transition-colors">Services</a></li>
-              <li><a href="#testimonials" className="text-cream hover:text-blue-light transition-colors">Testimonials</a></li>
-              <li><a href="#blog" className="text-cream hover:text-blue-light transition-colors">Horse Care Tips</a></li>
               <li><a href="#contact" className="text-cream hover:text-blue-light transition-colors">Contact</a></li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contact Information</h3>
+            <h3 className="text-lg font-semibold mb-4">Get in Touch</h3>
             <div className="space-y-3">
               <div className="flex items-center">
-                <Phone size={16} className="mr-3 text-blue-light" />
-                <span className="text-cream">(520) 555-0123</span>
-              </div>
-              <div className="flex items-center">
-                <Mail size={16} className="mr-3 text-blue-light" />
-                <span className="text-cream">vanessa@helveyequine.com</span>
-              </div>
-              <div className="flex items-center">
                 <MapPin size={16} className="mr-3 text-blue-light" />
-                <span className="text-cream">Tucson, AZ & Surrounding Areas</span>
+                <span className="text-cream">Arizona & Surrounding Areas</span>
               </div>
             </div>
             
@@ -65,19 +55,33 @@ const Footer = () => {
               <p className="text-sm text-cream">
                 <strong>Service Hours:</strong> By appointment, 7 days a week
               </p>
-              <p className="text-xs text-cream mt-2">
-                Emergency consultations available
-              </p>
+              <div className="mt-4">
+                <a 
+                  href="https://form.jotform.com/251914824550053" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-block bg-gradient-to-r from-blue to-blue-dark hover:from-blue-dark hover:to-blue text-white px-6 py-2 rounded-lg font-medium text-sm transition-all duration-200"
+                >
+                  Request an Appointment
+                </a>
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="border-t border-blue mt-8 pt-8 text-center">
-          <p className="text-cream text-sm">
-            © 2025 Helvey Equine Services. All rights reserved. 
-            <span className="mx-2">•</span>
-            Licensed Equine Osteopath serving Tucson, Arizona
-          </p>
+        <div className="border-t border-blue mt-8 pt-8">
+          <div className="text-center mb-4">
+            <p className="text-cream text-sm italic">
+              *Bodywork supports your animal's well-being, but it is never a replacement for veterinary diagnosis or treatment.
+            </p>
+          </div>
+          <div className="text-center">
+            <p className="text-cream text-sm">
+              © 2025 Be Well Equine. All rights reserved. 
+              <span className="mx-2">•</span>
+              Licensed Equine Osteopath serving Arizona
+            </p>
+          </div>
         </div>
       </div>
     </footer>
