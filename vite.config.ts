@@ -18,5 +18,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/equine-balance-tucson-website/' // Replace with your GitHub repo name
+  base: '/djangelic.github.io/' // Since this will be the base directory
 }));
