@@ -9,8 +9,6 @@ const Header = () => {
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Services', href: '#services' },
-    { name: 'Testimonials', href: '#testimonials' },
-    { name: 'Blog', href: '#blog' },
     { name: 'Contact', href: '#contact' }
   ];
 
@@ -26,8 +24,8 @@ const Header = () => {
               className="h-12 w-12"
             />
             <div>
-              <h1 className="text-2xl font-serif font-bold text-navy">Helvey Equine Services</h1>
-              <p className="text-sm text-blue">Equine Osteopathy</p>
+              <h1 className="text-2xl font-serif font-bold text-navy">Be Well Equine</h1>
+              <p className="text-sm text-blue">Equine Osteopathy, Craniosacral and Masterson Method</p>
             </div>
           </div>
 

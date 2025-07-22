@@ -9,14 +9,16 @@ const Hero = () => {
           {/* Content */}
           <div className="order-2 lg:order-1">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-navy leading-tight mb-6">
-              Restoring Movement & Balance for Your Horse
+              Enhancing Vitality and Promoting Healing For Your Horse
             </h1>
             <h2 className="text-xl md:text-2xl text-blue font-medium mb-8">
               Equine Osteopathy with Vanessa Helvey
             </h2>
             <p className="text-lg text-earth mb-8 leading-relaxed">
-              Gentle, holistic bodywork techniques focused on improving your horse's mobility, 
-              comfort, and performance through intuitive, hands-on care.
+              Whole horse bodywork techniques tailored to your horse's individual needs that range from fascial and soft tissue to structural adjustments with an emphasis on getting to the root cause of discomfort and tension through an osteopathic lens.
+            </p>
+            <p className="text-sm text-earth mb-8 italic">
+              *Bodywork supports your animal's well-being, but it is never a replacement for veterinary diagnosis or treatment.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
@@ -25,7 +27,7 @@ const Hero = () => {
                 rel="noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-blue to-blue-dark hover:from-blue-dark hover:to-blue text-white px-8 py-3 rounded-lg font-medium text-lg transition-all duration-200 text-center"
               >
-                Get a Quote
+                Request an Appointment
               </a>
               <a 
                 href="https://form.jotform.com/251914824550053" 
@@ -33,7 +35,7 @@ const Hero = () => {
                 rel="noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-blue-light to-blue hover:from-blue hover:to-blue-dark text-navy hover:text-white border border-blue px-8 py-3 rounded-lg font-medium text-lg transition-all duration-200 text-center"
               >
-                Get a Quote
+                Request an Appointment
               </a>
             </div>
           </div>
@@ -42,8 +44,8 @@ const Hero = () => {
           <div className="order-1 lg:order-2">
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?auto=format&fit=crop&w=800&q=80"
-                alt="Beautiful horses in natural setting"
+                src="/lovable-uploads/8a1a74dd-8218-4b1e-a52f-83636646c9d9.png"
+                alt="Beautiful horse in natural setting"
                 className="rounded-lg shadow-2xl w-full h-96 lg:h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-blue opacity-10 rounded-lg"></div>
