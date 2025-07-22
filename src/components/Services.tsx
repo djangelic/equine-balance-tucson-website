@@ -5,7 +5,7 @@ const Services = () => {
   const services = [
     {
       icon: <Stethoscope className="text-blue" size={32} />,
-      title: "🐎 Initial Evaluation",
+      title: "Initial Evaluation",
       description: "A full-body assessment designed to establish a baseline for your horse's mobility, posture, and comfort. We focus on identifying areas of imbalance, tension, and compensation patterns that may impact your horse's overall performance.",
       features: [
         "In-depth intake of your horse's history and relevant information",
@@ -16,7 +16,7 @@ const Services = () => {
     },
     {
       icon: <Heart className="text-blue" size={32} />,
-      title: "🧘‍♀️ Individual Sessions (for Horse or Dog)",
+      title: "Individual Sessions (for Horse or Dog)",
       description: "A focused, intuitively guided session tailored to your horse's needs that day. We work with your horse's nervous system and individual anatomy to not only encourage relaxation, but to restore mobility and correct dysfunctional compensation patterns. Evaluation is included.",
       features: [
         "A collaborative session that honors your horse's comfort and responses",
@@ -26,7 +26,7 @@ const Services = () => {
     },
     {
       icon: <Phone className="text-blue" size={32} />,
-      title: "📞 Phone Consultations",
+      title: "Phone Consultations",
       description: "Support between visits when you have questions or need help determining whether a session is right for your horse.",
       features: [],
       note: "📝 These are not veterinary consultations and do not involve medical diagnosis or treatment."

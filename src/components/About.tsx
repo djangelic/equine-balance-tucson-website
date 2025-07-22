@@ -19,7 +19,7 @@ const About = () => {
             <img
               src="/lovable-uploads/6e5028e4-6227-49f9-9a9a-0c15f04e2fe6.png"
               alt="Vanessa Helvey with horse and dog"
-              className="rounded-lg shadow-lg w-full h-96 object-cover"
+              className="rounded-lg shadow-lg w-full h-auto object-contain"
             />
           </div>
 
